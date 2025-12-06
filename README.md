@@ -67,6 +67,7 @@ A página apresenta sidebar, cards e um layout que muda com base em **tela peque
 - **Inclusão da Licença:** Ao redistribuir o software, a licença original e o aviso de direitos autorais devem ser incluídos no código fonte ou na documentação, garantindo que futuros usuários conheçam seus direitos.
 - **Isenção de Garantia:** O software é fornecido "como está", sem garantias de qualquer tipo, explícitas ou implícitas. Os autores não são responsáveis por quaisquer danos decorrentes do uso do software.
 
+---
 
 ## 👩🏻‍💻 Autora
 
