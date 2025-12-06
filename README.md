@@ -16,7 +16,7 @@ O design muda dinamicamente, oferecendo uma experiência moderna e visualmente a
 - [Stack Utilizada](#-stack-utilizada)
 - [Deploy](#-deploy)
 - [Licença](#-licença)
-- [Autor](#-autor)
+- [Autor](#-autora)
 
 ---
 
