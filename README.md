@@ -15,9 +15,6 @@ O design muda dinamicamente, oferecendo uma experiência moderna e visualmente a
 - [Funcionalidades](#-funcionalidades)
 - [Stack Utilizada](#-stack-utilizada)
 - [Deploy](#-deploy)
-- [Código](#-código)
-  - [HTML](#html)
-  - [CSS](#css)
 - [Licença](#-licença)
 - [Autor](#-autor)
 
