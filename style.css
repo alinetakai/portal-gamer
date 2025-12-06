@@ -1,0 +1,91 @@
+/* Tema padrão */
+body {
+  background: #ffffff;
+  color: #222;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  transition: all .3s;
+}
+
+/* Sidebar padrão */
+.sidebar {
+  width: 200px;
+  background: #222;
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.card {
+  background: #f6f6f6;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+/* 1️⃣ Tela pequena (até 600px) */
+@media (max-width: 600px) {
+  body {
+    background: #fce4ec;     /* rosa claro */
+    color: #880e4f;
+    flex-direction: column;
+  }
+
+  .sidebar {
+    display: none;           /* sidebar some */
+  }
+
+  .card {
+    background: #ffffffaa;
+  }
+}
+
+/* 2️⃣ Tela grande + modo paisagem */
+@media (min-width: 1000px) and (orientation: landscape) {
+  body {
+    background: #0d0f1f;     /* fundo escuro estilo gamer */
+    color: #00e5ff;          /* neon */
+  }
+
+  h1 {
+    text-shadow: 0 0 20px #00e5ff;
+  }
+
+  .card {
+    background: #1a2033;
+    color: #aaf7ff;
+  }
+}
+
+/* 3️⃣ Se o usuário usa modo escuro */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #000;
+    color: #fff;
+  }
+
+  .card {
+    background: #222;
+  }
+}
+
+/* 4️⃣ OU (vírgula): qualquer uma das condições ativa */
+@media (max-width: 500px), (orientation: portrait) {
+  .card {
+    width: 90%;
+    margin: auto;
+  }
+}
