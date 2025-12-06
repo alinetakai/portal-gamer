@@ -9,17 +9,6 @@ O design muda dinamicamente, oferecendo uma experiência moderna e visualmente a
 
 ---
 
-## 📌 Índice
-- [Descrição](#-descrição)
-- [Aprendizados](#-aprendizados)
-- [Funcionalidades](#-funcionalidades)
-- [Stack Utilizada](#-stack-utilizada)
-- [Deploy](#-deploy)
-- [Licença](#-licença)
-- [Autora](#-autora)
-
----
-
 ## 📝 Descrição
 Este projeto demonstra o uso avançado de **media queries**, responsividade e adaptação automática de temas com `prefers-color-scheme`.  
 A página apresenta sidebar, cards e um layout que muda com base em **tela pequena**, **tela grande**, **orientação** e **modo escuro**.
